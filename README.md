@@ -39,6 +39,7 @@ According to the SJTU student handbook (2019 version),
 
 ## Contribution
 
+YuYang Chen(Maxwell)
 The work are partially contributed to some other students, TAs and professors in JI, which would be listed if known.
 
 ## Reminder
