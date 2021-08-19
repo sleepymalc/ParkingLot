@@ -22,10 +22,10 @@
 
 		1. Player will control a rocket,which appears in a random teleport at the beginning.
 		2. Your goal is to destory all the vehicles before they all have parked.
-     		3. Your initial position is at a random teleport.
-     		4. If more than three vehicles parked sucessfully, you lose.
-     		5. If your rocket bump into another vehicles, it will collapse and you lose.
-     		6. You can only left less than three vehicles parked sucessfully, or you lose.
+		3. Your initial position is at a random teleport.
+		4. If more than three vehicles parked sucessfully, you lose.
+		5. If your rocket bump into another vehicles, it will collapse and you lose.
+		6. You can only left less than three vehicles parked sucessfully, or you lose.
 
 ### Control:
 
