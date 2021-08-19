@@ -1,10 +1,6 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #include "Rectangle.h"
 
-#include "draw.h"
+#include "../draw.h"
 
 Rectangle::Rectangle(Vec anchor, Vec re, Vec s1, Vec s2, float r, float g, float b, bool k) {
     setAnchor(anchor);

@@ -1,10 +1,10 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #ifndef P3_POLYGON_H
 #define P3_POLYGON_H
 
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
 #include <vector>
 
 #include "ColoredFig.h"

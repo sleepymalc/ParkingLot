@@ -1,10 +1,7 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #ifndef P3_TRIANGLE_H
 #define P3_TRIANGLE_H
 
+#include "../draw.h"
 #include "ColoredFig.h"
 
 class Triangle : public ColoredFig {

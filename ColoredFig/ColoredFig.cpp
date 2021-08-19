@@ -1,6 +1,3 @@
-//
-// Created by maxwell on 2019/11/28.
-//
 #define GL_SILENCE_DEPRECATION
 #include "ColoredFig.h"
 

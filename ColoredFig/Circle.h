@@ -1,12 +1,8 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #ifndef P3_CIRCLE_H
 #define P3_CIRCLE_H
 
+#include "../general.h"
 #include "ColoredFig.h"
-#include "general.h"
 
 class Circle : public ColoredFig {
    private:

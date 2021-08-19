@@ -1,10 +1,7 @@
-//
-// Created by maxwell on 2019/11/28.
-//
 #ifndef P3_COLOREDFIG_H
 #define P3_COLOREDFIG_H
 
-#include "Figure.h"
+#include "../Figure.h"
 
 class ColoredFig : public Figure {
    protected:

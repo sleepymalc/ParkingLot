@@ -1,13 +1,9 @@
-//
-// Created by maxwell on 2019/11/29.
-//
-
 #ifndef P3_LINE_H
 #define P3_LINE_H
 
+#include "../draw.h"
+#include "../general.h"
 #include "ColoredFig.h"
-#include "draw.h"
-#include "general.h"
 
 class Line : public ColoredFig {
    private:

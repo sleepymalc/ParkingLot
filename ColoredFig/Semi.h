@@ -1,13 +1,9 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #ifndef P3_SEMI_H
 #define P3_SEMI_H
 
+#include "../draw.h"
+#include "../general.h"
 #include "ColoredFig.h"
-#include "draw.h"
-#include "general.h"
 
 class Semi : public ColoredFig {
    private:

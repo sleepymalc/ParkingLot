@@ -1,10 +1,5 @@
-//
-// Created by maxwell on 2019/11/28.
-//
 #ifndef P3_VEC_H
 #define P3_VEC_H
-
-//#include "../classes.h"
 
 float Cos(float a);
 float Sin(float a);

@@ -1,13 +1,9 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #ifndef P3_GROUP_H
 #define P3_GROUP_H
 
 #include <vector>
 
-#include "ColoredFig.h"
+#include "ColoredFig/ColoredFig.h"
 #include "Figure.h"
 
 using namespace std;

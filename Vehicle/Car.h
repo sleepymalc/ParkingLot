@@ -1,18 +1,15 @@
-//
-// Created by maxwell on 2019/11/28.
-//
 #ifndef P3_CAR_H
 #define P3_CAR_H
 
-#include "Arc.h"
-#include "Circle.h"
-#include "Ellipse.h"
-#include "Group.h"
-#include "Line.h"
-#include "Polygon.h"
-#include "Rectangle.h"
-#include "Semi.h"
-#include "Triangle.h"
+#include "../ColoredFig/Arc.h"
+#include "../ColoredFig/Circle.h"
+#include "../ColoredFig/Ellipse.h"
+#include "../ColoredFig/Line.h"
+#include "../ColoredFig/Polygon.h"
+#include "../ColoredFig/Rectangle.h"
+#include "../ColoredFig/Semi.h"
+#include "../ColoredFig/Triangle.h"
+#include "../Group.h"
 
 class Car : public Group {
    private:

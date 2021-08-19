@@ -1,12 +1,4 @@
-//
-// Created by maxwell on 2019/12/7.
-//
 #include "ParkingLot.h"
-
-#include "Car.h"
-#include "Rocket.h"
-#include "Teleport.h"
-#include "UFO.h"
 
 bool judge(Group* source, Group* target) {
     float A, B, C, x0, y0, x1, y1;

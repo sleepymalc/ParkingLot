@@ -1,6 +1,3 @@
-//
-// Created by maxwell on 2019/11/28.
-//
 #ifndef P3_FIGURE_H
 #define P3_FIGURE_H
 
@@ -9,19 +6,22 @@
 class Figure {
    protected:
     Vec anchor;
-    Vec re;  //relation vector
-    // Vec abs;//absolute vector
+    Vec re;
+
    public:
     Figure() : anchor(0, 0), re(0, 0){};
+
+    Vec getpoint();
     Vec getAnchor();
-    void zoomRe(float scale);
-    void turnRe(float angle);
+
     virtual void setAnchor(Vec a);
     virtual void moveAnchorto(Vec a);
+
     void group_moveAnchorTo(Vec a);
+    void zoomRe(float scale);
+    void turnRe(float angle);
     void setRelation(Vec b);
-    Vec getpoint();
-    //void updateAbs();
+
     virtual void draw() = 0;
     virtual void move(Vec dir);
     virtual void rotate(float ang) = 0;

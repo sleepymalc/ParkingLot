@@ -1,10 +1,6 @@
-//
-// Created by maxwell on 2019/11/29.
-//
-
 #include "Arc.h"
 
-#include "classes.h"
+#include "../classes.h"
 
 Arc::Arc(Vec anchor, Vec re, Vec R, float ang, float r, float g, float b, bool k) {
     setAnchor(anchor);

@@ -1,7 +1,3 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #include "draw.h"
 
 void point(Vec p, float rate) {

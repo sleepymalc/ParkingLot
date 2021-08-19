@@ -1,7 +1,3 @@
-//
-// Created by maxwell on 2019/12/15.
-//
-//static const int Rb = 5;
 #include "Game.h"
 
 void Game::Init() {

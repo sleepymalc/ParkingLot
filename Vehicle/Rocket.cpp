@@ -1,7 +1,3 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #include "Rocket.h"
 
 Rocket::Rocket(Vec anchor) {

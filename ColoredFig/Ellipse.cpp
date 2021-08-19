@@ -1,4 +1,5 @@
 #include "Ellipse.h"
+
 Ellipse::Ellipse(Vec anchor, Vec re, Vec paras, float ang, float r, float g, float b, bool k) {
     this->k = k;
     setAnchor(anchor);

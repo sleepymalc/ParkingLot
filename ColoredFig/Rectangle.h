@@ -1,10 +1,6 @@
-//
-// Created by maxwell on 2019/11/28.
-//
 #ifndef P3_RECTANGLE_H
 #define P3_RECTANGLE_H
 
-//#include "../classes.h"
 #include "ColoredFig.h"
 
 class Rectangle : public ColoredFig {

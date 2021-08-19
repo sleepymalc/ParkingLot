@@ -1,7 +1,3 @@
-//
-// Created by maxwell on 2019/11/28.
-//
-
 #include "Semi.h"
 
 Semi::Semi(Vec anchor, Vec re, Vec R, float ang, float r, float g, float b, bool k) {
