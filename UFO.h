@@ -5,31 +5,28 @@
 #ifndef P3_UFO_H
 #define P3_UFO_H
 
-#include "Group.h"
-#include "Triangle.h"
-#include "Rectangle.h"
-#include "Circle.h"
-#include "Semi.h"
 #include "Arc.h"
+#include "Circle.h"
+#include "Ellipse.h"
+#include "Group.h"
 #include "Line.h"
 #include "Polygon.h"
-#include "Ellipse.h"
-
-
+#include "Rectangle.h"
+#include "Semi.h"
+#include "Triangle.h"
 
 class UFO : public Group {
-private:
+   private:
     Semi body;
     Triangle light;
-    Arc bodyupleft,bodyupright,bodydownleft,bodydownright;
-    Ellipse lightdown,bodyring;
+    Arc bodyupleft, bodyupright, bodydownleft, bodydownright;
+    Ellipse lightdown, bodyring;
     Circle defense;
-public:
-    UFO(Vec anchor= {0,0});
+
+   public:
+    UFO(Vec anchor = {0, 0});
     void effect() override;
     void rotate(float ang) override;
 };
 
-
-
-#endif //P3_UFO_H
+#endif  //P3_UFO_H

@@ -10,18 +10,16 @@
 #include "general.h"
 
 class Line : public ColoredFig {
-private:
-    Vec R ;
-public:
-    Line(){}
-    Line(Vec anchor,Vec re, Vec R, float r, float g, float b);
-    Vec getR(){return R;}
-    void draw() override ;
-    void zoom(float k) override ;
-    void rotate(float ang) override ;
+   private:
+    Vec R;
+
+   public:
+    Line() {}
+    Line(Vec anchor, Vec re, Vec R, float r, float g, float b);
+    Vec getR() { return R; }
+    void draw() override;
+    void zoom(float k) override;
+    void rotate(float ang) override;
 };
 
-
-
-
-#endif //P3_LINE_H
+#endif  //P3_LINE_H

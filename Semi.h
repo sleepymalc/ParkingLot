@@ -10,17 +10,17 @@
 #include "general.h"
 
 class Semi : public ColoredFig {
-private:
+   private:
     Vec R;
-    float Ang;//0-360
-public:
+    float Ang;  //0-360
+   public:
     Semi(){};
-    Semi(Vec anchor,Vec re, Vec R, float ang, float r, float g, float b,bool k = true);
-    Vec getR(){return R;}
-    float getAng(){return Ang;}
-    void draw() override ;
-    void zoom(float k) override ;
-    void rotate(float ang) override ;
+    Semi(Vec anchor, Vec re, Vec R, float ang, float r, float g, float b, bool k = true);
+    Vec getR() { return R; }
+    float getAng() { return Ang; }
+    void draw() override;
+    void zoom(float k) override;
+    void rotate(float ang) override;
 };
 
-#endif //P3_SEMI_H
+#endif  //P3_SEMI_H

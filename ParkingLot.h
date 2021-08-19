@@ -5,27 +5,28 @@
 #ifndef P3_PARKINGLOT_H
 #define P3_PARKINGLOT_H
 #define GL_SILENCE_DEPRECATION
-#include <ctime>
 #include <cmath>
+#include <ctime>
+
 #include "Group.h"
 #include "Rocket.h"
 
 using namespace std;
 
 class ParkingLot {
-private:
-vector<Group*> Vs;//Vehicles
-vector<Group*> Ts;//Teleports
-vector<Vec> Ps;//Final Slots of Vehicles
-public:
+   private:
+    vector<Group*> Vs;  //Vehicles
+    vector<Group*> Ts;  //Teleports
+    vector<Vec> Ps;     //Final Slots of Vehicles
+   public:
     ParkingLot(){};
     void drawBG();
-    void drawDoor(int &open);
+    void drawDoor(int& open);
     void drawV();
     void genP();
     Vec getT();
     void genV();
-    int getV(){return Vs.size();}
+    int getV() { return Vs.size(); }
     void moveV();
     void effV();
     void boomV(Rocket* player);
@@ -34,5 +35,4 @@ public:
     ~ParkingLot(){};
 };
 
-
-#endif //P3_PARKINGLOT_H
+#endif  //P3_PARKINGLOT_H

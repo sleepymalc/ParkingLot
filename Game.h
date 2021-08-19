@@ -8,18 +8,18 @@
 #include "ParkingLot.h"
 #include "Rocket.h"
 
-
 class Game {
-private:
+   private:
     ParkingLot* lot;
     Rocket* player;
-public:
-    Game(){
+
+   public:
+    Game() {
         lot = new ParkingLot();
         lot->genP();
-        float tmpx = (lot->getT().getX()*50-125)*lot->getT().getY();
-        float tmpy = lot->getT().getY()*(-130);
-        player = new Rocket({tmpx,tmpy});
+        float tmpx = (lot->getT().getX() * 50 - 125) * lot->getT().getY();
+        float tmpy = lot->getT().getY() * (-130);
+        player = new Rocket({tmpx, tmpy});
     };
     void Init();
     void Draw();
@@ -28,8 +28,8 @@ public:
     void ifImp();
     void ifLose();
     void ifWin();
-    Rocket* getP(){return player;}
+    Rocket* getP() { return player; }
     ~Game(){};
 };
 
-#endif //P3_GAME_H
+#endif  //P3_GAME_H

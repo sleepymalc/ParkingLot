@@ -7,12 +7,13 @@
 #include "Figure.h"
 
 class ColoredFig : public Figure {
-protected:
-    float r,g,b;
+   protected:
+    float r, g, b;
     bool k = true;
-public:
-    void setColor(float r,float g,float b);
+
+   public:
+    void setColor(float r, float g, float b);
     void color();
 };
 
-#endif //P3_COLOREDFIG_H
+#endif  //P3_COLOREDFIG_H

@@ -3,12 +3,13 @@
 //
 
 #include "Arc.h"
+
 #include "classes.h"
 
-Arc::Arc(Vec anchor,Vec re, Vec R, float ang, float r, float g, float b, bool k) {
+Arc::Arc(Vec anchor, Vec re, Vec R, float ang, float r, float g, float b, bool k) {
     setAnchor(anchor);
     setRelation(re);
-    setColor(r,g,b);
+    setColor(r, g, b);
     this->k = k;
     this->R = R;
     this->Ang = ang;
@@ -18,22 +19,22 @@ void Arc::draw() {
     Vec temp = R;
     color();
     beginDraw(k);
-    for(int i=0;i<PRECISION;i++){
-        point(getpoint()+temp);
-        temp>>= Ang/PRECISION;
+    for (int i = 0; i < PRECISION; i++) {
+        point(getpoint() + temp);
+        temp >>= Ang / PRECISION;
     };
-    point(getpoint()+temp);
-    temp*=cos(pi_angle(Ang));
-    point(getpoint()+temp);
+    point(getpoint() + temp);
+    temp *= cos(pi_angle(Ang));
+    point(getpoint() + temp);
     endDraw();
 }
 
 void Arc::zoom(float k) {
     zoomRe(k);
-    R*=k;
+    R *= k;
 }
 
 void Arc::rotate(float ang) {
     turnRe(ang);
-    R<<=ang;
+    R <<= ang;
 }

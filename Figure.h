@@ -7,12 +7,12 @@
 #include "Vec.h"
 
 class Figure {
-protected:
+   protected:
     Vec anchor;
-    Vec re;//relation vector
+    Vec re;  //relation vector
     // Vec abs;//absolute vector
-public:
-    Figure(): anchor(0,0), re(0,0){};
+   public:
+    Figure() : anchor(0, 0), re(0, 0){};
     Vec getAnchor();
     void zoomRe(float scale);
     void turnRe(float angle);
@@ -24,8 +24,8 @@ public:
     //void updateAbs();
     virtual void draw() = 0;
     virtual void move(Vec dir);
-    virtual void rotate(float ang) =0;
-    virtual void zoom(float k) =0;
+    virtual void rotate(float ang) = 0;
+    virtual void zoom(float k) = 0;
 };
 
-#endif //P3_FIGURE_H
+#endif  //P3_FIGURE_H

@@ -5,22 +5,23 @@
 #ifndef P3_TELEPORT_H
 #define P3_TELEPORT_H
 
-#include "Group.h"
-#include "Triangle.h"
-#include "Rectangle.h"
-#include "Circle.h"
-#include "Semi.h"
 #include "Arc.h"
+#include "Circle.h"
+#include "Ellipse.h"
+#include "Group.h"
 #include "Line.h"
 #include "Polygon.h"
-#include "Ellipse.h"
+#include "Rectangle.h"
+#include "Semi.h"
+#include "Triangle.h"
 
 class Teleport : public Group {
-private:
+   private:
     Circle bound;
     Polygon self;
-public:
+
+   public:
     Teleport(Vec anchor);
-    void effect() override ;
+    void effect() override;
 };
-#endif //P3_TELEPORT_H
+#endif  //P3_TELEPORT_H

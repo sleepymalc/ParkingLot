@@ -5,23 +5,27 @@
 #ifndef P3_POLYGON_H
 #define P3_POLYGON_H
 
-#include "ColoredFig.h"
 #include <vector>
+
+#include "ColoredFig.h"
+
 using namespace std;
 
 class Polygon : public ColoredFig {
-private:
+   private:
     vector<Vec> Vs;
-    int N;float R;
-public:
+    int N;
+    float R;
+
+   public:
     Polygon(){};
-    Polygon(Vec anchor,Vec re,int N,float R,float r,float g,float b);
+    Polygon(Vec anchor, Vec re, int N, float R, float r, float g, float b);
     void draw() override;
-    void zoom(float k) override ;
-    void rotate(float ang) override ;
-    void transform(int k,int &t);
+    void zoom(float k) override;
+    void rotate(float ang) override;
+    void transform(int k, int &t);
     void transcolor();
-    int getN(){return N;}
+    int getN() { return N; }
 };
 
-#endif //P3_POLYGON_H
+#endif  //P3_POLYGON_H
