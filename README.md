@@ -1,4 +1,4 @@
-# README--Project 3 Parking Lot Game
+# README - Project 3 Parking Lot Game
 
 ## Bonus And Creativity:
 
