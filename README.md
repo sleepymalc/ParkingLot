@@ -20,7 +20,7 @@
 
 ### GameRules:
 
-		1.Player will control a rocket,which appears in a random teleport at the 			beginning, and your goal is to destory all the vehicles before they all have 			parked.
+		1.Player will control a rocket,which appears in a random teleport at the beginning, and your goal is to destory all the vehicles before they all have parked.
 
      		2. Your initial position is at a random teleport.
      		3. If more than three vehicles parked sucessfully, you lose.
