@@ -2,13 +2,13 @@
 
 ## Compile the program
 
-​	You can easily use terminal and input this
+​	You can easily use terminal and input the following compile command:
 
 ```bash
-make
+g++ -std=c++11 **/*.cpp -I -O2 -framework GLUT -framework OpenGL -o parkinglot
 ```
 
-by using Cmake. After compiling done, we can run this program by
+ After compiling done, we can run this program by
 
 ```bash
 ./parkinglot

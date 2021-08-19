@@ -26,6 +26,8 @@ class Figure {
     virtual void move(Vec dir);
     virtual void rotate(float ang) = 0;
     virtual void zoom(float k) = 0;
+
+    ~Figure() = default;
 };
 
 #endif  //P3_FIGURE_H
