@@ -1,5 +1,19 @@
 # README - Project 3 Parking Lot Game
 
+## Compile the program
+
+​	You can easily use terminal and input this
+
+```bash
+make
+```
+
+by using Cmake. After compiling done, we can run this program by
+
+```bash
+./parkinglot
+```
+
 ## Bonus And Creativity:
 
 ​		1.We use a lovely cart, UFO and rocket.
@@ -42,7 +56,7 @@ According to the SJTU student handbook (2019 version),
 	YuYang Chen(Maxwell)
 	
 	Pingbang Hu
-	
+
 The work are partially contributed to some other students, TAs and professors in JI, which would be listed if known.
 
 ## Reminder
