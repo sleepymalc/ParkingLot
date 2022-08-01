@@ -16,19 +16,11 @@ Instead of making a boring animation, we make it into a game features with
 
 ### Launch
 
-To compile, you simply run
-
-```bash
-make
-```
-
-you can then get the executable named `parkinglot`.
+To compile, you simply run `make` and get the executable named `parkinglot`. Now, you just simply run `./parkinglot` and you can start playing!
 
 ### Rules
 
-The player will control a rocket, which appears in a random teleport at the beginning, and your goal is to destroy all the vehicles before they all have parking.
-
-In detail,
+The player will control a rocket, which appears in a random teleport at the beginning, and your goal is to destroy all the vehicles before they all have parking. In detail,
 
 1. Your initial position is at a random teleport.
 2. If more than three vehicles are parked successfully, you lose.
