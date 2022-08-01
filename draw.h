@@ -6,7 +6,7 @@
 #include "Vec.h"
 
 void point(Vec p, float rate = 1);
-void beginDraw(bool k = false);
+void beginDraw(bool k = true);
 void endDraw();
 
-#endif  //P3_DRAW_H
+#endif  // P3_DRAW_H
