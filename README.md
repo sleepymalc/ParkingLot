@@ -1,7 +1,7 @@
 # Parking Lot
 
 <p align="center"><b><i>
-	Start Parking! 🚗 Watch Out! ⚠️
+	🚗 Start Parking! Watch Out! ⚠️
 </i></b></p>
 
 ## Parking Lot Manager
