@@ -12,13 +12,11 @@ Instead of making a boring animation, we make it into a game features with
 2. Teleport can transform into polygons with a different number of sides and change color during the transformation.
 3. To make it more fun, we make it an interactive game, see the [game rules](#rules) below.
 
-## Game
-
-### Launch
+## Launch
 
 To compile, you simply run `make` and get the executable named `parkinglot`. Now, you just simply run `./parkinglot` and you can start playing!
 
-### Rules
+## Rules
 
 The player will control a rocket, which appears in a random teleport at the beginning, and your goal is to destroy all the vehicles before they all have parking. In detail,
 
@@ -27,23 +25,19 @@ The player will control a rocket, which appears in a random teleport at the begi
 3. If your rocket bumps into another vehicle, it will collapse, and you lose.
 4. You can only leave less than three vehicles parked successfully, or you lose.
 
-### Control
+## Control
 
 - Move: `w` (up), `a` (turn left), `s` (down), `d` (turn right).
 - Shoot: `space` (to shoot a laser with delay)
 
-### Implementation Detail
+## Else
+
+We also include the [source code](https://github.com/sleepymalc/ParkingLot/blob/master/ParkingLotManager.cpp) of the first part of the project.
+
+For the game (second part) itself, something is worth noting since we did not strictly follow the project instruction:
 
 1. Our Rocket doesn't zoom in and out, instead, we zoom in and out of the flames to make it more real.
 2. Our car is replaced with a cute cart, and the flag is replaced with a windmill.
-
-## Parking Lot Manager
-
-- Input: The parking lot's total floor number, and the total time of this program.
-- Output: two types of tickets: one is an arrival ticket, another is a departure ticket.
-- ​Parking lot set up: For only one floor, there will have equally four types of slots for each type of vehicle, and if there is more than one floor, the first floor will always be divided into two parts, one is for bicycles, another is for motorbike. And for a higher floor, each floor will also be divided into two parts, one is for vans, another is for cars.
-
-> This is indeed the first part of the project. The [source code](https://github.com/sleepymalc/ParkingLot/blob/master/ParkingLotManager.cpp) is included.
 
 ## About Honor Code
 
