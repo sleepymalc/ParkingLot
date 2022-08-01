@@ -16,7 +16,7 @@
 
 Instead of making a boring animation, we make it into a game features with
 
-​1. Lovely drawing of UFO and rocket, etc.
+1. Lovely drawings of UFOs and rockets, etc.
 2. Teleport can transform into polygons with a different number of sides and change color during the transformation.
 3. To make it more fun, we make it an interactive game, see the [game rules](#game-rules) below.
 
