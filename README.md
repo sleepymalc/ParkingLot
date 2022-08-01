@@ -1,51 +1,47 @@
-# README - Project 3 Parking Lot Game
+# Parking Lot
 
-## Compile the program
+<p align="center"><b><i>
+	Start Parking! 🚗 Watch Out! ⚠️
+</i></b></p>
 
-​	You can easily use terminal and input the following compile command:
+## Parking Lot Manager
 
-```bash
-g++ -std=c++11 **/*.cpp -I -O2 -framework GLUT -framework OpenGL -o parkinglot
-```
+- Input: The parking lot's total floor number, and the total time of this program.
+- Output: two types of tickets: one is an arrival ticket, another is a departure ticket.
+- ​Parking lot set up: For only one floor, there will have equally four types of slots for each type of vehicle, and if there is more than one floor, the first floor will always be divided into two parts, one is for bicycles, another is for motorbike. And for a higher floor, each floor will also be divided into two parts, one is for vans, another is for cars.
 
- After compiling done, we can run this program by
+## Parking Lot
 
-```bash
-./parkinglot
-```
+### Abstract
 
-## Bonus And Creativity:
+Instead of making a boring animation, we make it into a game features with
 
-​		1.We use a lovely cart, UFO and rocket.
+​1. Lovely drawing of UFO and rocket, etc.
+2. Teleport can transform into polygons with a different number of sides and change color during the transformation.
+3. To make it more fun, we make it an interactive game, see the [game rules](#game-rules) below.
 
-​		2.Teleport can transform from n sides polygon to n+1 sides polygon and keep going until it reach the limit, and then it will automatically decrease to the lower limit smoothly, and also, change color during the transform.
+### Game Rules
 
-​		3.To make it more fun, we make it an interactive game, see the GameRules below.
+The player will control a rocket, which appears in a random teleport at the beginning, and your goal is to destroy all the vehicles before they all have parking.
 
-## GameRules:
+In detail,
 
-		1. Player will control a rocket,which appears in a random teleport at the beginning.
-		2. Your goal is to destory all the vehicles before they all have parked.
-		3. Your initial position is at a random teleport.
-		4. If more than three vehicles parked sucessfully, you lose.
-		5. If your rocket bump into another vehicles, it will collapse and you lose.
-		6. You can only left less than three vehicles parked sucessfully, or you lose.
+1. Your initial position is at a random teleport.
+2. If more than three vehicles are parked successfully, you lose.
+3. If your rocket bumps into another vehicle, it will collapse and you lose.
+4. You can only leave less than three vehicles parked successfully, or you lose.
 
-## Control:
+### Control
 
-Move: W( up ) A( turn left ) S( down ) D( turn right ) 
+- Move: `w` (up), `a` (turn left), `s` (down), `d` (turn right).
+- Shoot: `space` (to shoot a laser with delay)
 
-Shoot: Space( to shoot a laser with delay ) 
+### Implementation Detail
 
-## Notice:
-
-1. In order to achieve this game, we use namespace to restore the game.
-2. Our Rocket don't zoom in and zoom out, instead, we zoom in and out the flames to make it more real.
-3. Our car is replaced with a cute cart, and the flag is replaced with a windmill.
+1. Our Rocket doesn't zoom in and out, instead, we zoom in and out of the flames to make it more real.
+2. Our car is replaced with a cute cart, and the flag is replaced with a windmill.
 
 ## About Honor Code
-
-If there is same questions or labs in the future, it is the responsibility of JI students not to copy or modify these codes, or TeX files because it is against the Honor Code. The owner of this repository dosen't take any commitment for other's faults.
 
 According to the SJTU student handbook (2019 version),
 
@@ -53,12 +49,11 @@ According to the SJTU student handbook (2019 version),
 
 ## Contribution
 
-	YuYang Chen(Maxwell)
-	
-	Pingbang Hu
+<p align="center"><b><i>
+	Yuyang Chen, Pingbang Hu
+</i></b></p>
 
-The work are partially contributed to some other students, TAs and professors in JI, which would be listed if known.
+---
 
-## Reminder
-
-If you find any problems in the reposity, welcome to make an issue or pull request.
+The works are partially contributed by some other students, TAs, and professors, which would be listed if known.
+> If you find any problems in the repository, welcome to make an issue or pull request.
