@@ -32,7 +32,7 @@ The player will control a rocket, which appears in a random teleport at the begi
 
 ## Else
 
-We also include the [source code](https://github.com/sleepymalc/ParkingLot/blob/master/ParkingLotManager.cpp) of the first part of the project.
+We also include the [source code](./ParkingLotManager.cpp) of the first part of the project.
 
 For the game (second part) itself, something is worth noting since we did not strictly follow the project instruction:
 
